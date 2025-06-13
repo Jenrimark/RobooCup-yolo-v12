@@ -1,1 +1,26 @@
+# 只忽略根目录下的 data 文件夹
+/data/
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境相关
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
 /flash_attn-2.7.4%2Bcu124torch2.6.0cxx11abiFALSE-cp311-cp311-win_amd64.whl
